@@ -1,0 +1,13 @@
+package com.acme.DROOLS_1198;
+
+import mssp.io.model.*;
+
+global java.util.Set controlSet;
+
+rule "check"
+when
+	$a : Alert(user!=null, user str[endsWith] "$")
+then
+	System.out.println($a);
+	controlSet.add($a);
+end

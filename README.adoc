@@ -1,0 +1,10 @@
+Ref DROOLS-1198
+
+https://issues.jboss.org/browse/DROOLS-1198
+
+Use Drools version 6.4.0.Final to demonstrate the issue, use instead ..
+
+.. Drools version 6.5.0.CR2 or above to demonstrate the fix properly addresses the issue.
+
+NOTICE: this reproducer for DROOLS-1198 make sense only when running on a real Mac OSX (case preserving/insensitive filesystem.)
+If instead a platform-indipendent reproducer/JUnit test is needed to demonstrate the Mac OSX issue on ANY platform, reference the commit of the DROOLS-1198 fix, it contains a reproducer/JUnit test demonstrating the Mac OSX issue regardless of the actual running platform, and can be used to demonstrate the Mac OSX issue indeed on ANY platform.
